@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Modas Paquita</h1>
+    <fieldset>
+        <legend>
+            <h1>Formulario de pedido</h1>
+        </legend>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td colspan="3" class="titulo">
+                        <h3>Paso 1. Datos personales</h3> <!--titulo paso 1-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <fieldset id="fDeCliente" >
+                            <legend>Datos del cliente</legend> <!--datos cliente-->
+                            <label for="text">Correo electrónico</label>
+                            <input type="email" name="email" id="mail">
+                            <br>
+                            <label for="password">Contraseña</label>
+                            <input type="password" name="contraseña" id="contraseña" min="6">
+                            <br>
+                            <label for="password">(Longitud mínima 6 caracteres)</label>
+                        </fieldset>
+                    </td>
+                    <td colspan="1">
+                        <fieldset id="fTdeCliente">
+                            <legend>Tipo de cliente</legend> <!--tipo de cliente-->
+                            <input type="radio" name="tipo" id="particular">
+                            <label for="particular">Particular</label>
+                            <br>
+                            <input type="radio" name="tipo" id="asociacion">
+                            <label for="asociacion">Asociación</label>
+                            <br>
+                            <input type="radio" name="tipo" id="empresa">
+                            <label for="empresa">Empresa</label>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="titulo">
+                        <br>
+                        <h3>Paso 2. Pedido</h3> <!--titulo  paso 2-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" >
+                        <fieldset style="height: 150px;">
+                            <legend>Datos del producto</legend> <!--datos del producto-->
+                            <label for="producto">Producto</label>
+                            <br>
+                            <br>
+                            <select name="producto" id="producto">
+                                <optgroup label="camisa">
+                                    <option value="mangaLarga" selected>Manga larga</option>
+                                    <option value="mangaCorta">Manga corta</option>
+                                </optgroup>
+                                <optgroup label="pantalones">
+                                    <option value="pantalónPitillo">Pantalón pitillo</option>
+                                    <option value="pantalónCampana">pantalón campana</option>
+                                    <option value="pantalónCorto">pantalón corto</option>
+                                </optgroup>
+                                <br>
+                            </select>
+                        </fieldset>
+                    </td>
+                    <td colspan="2" >
+                        <fieldset>
+                            <legend>Informacion de interés</legend> <!--informacion de interes-->
+                            <label for="box">Comentarios</label>
+                            <br>
+                            <textarea name="caja" id="box" style="resize: none;"
+                                placeholder="Escriba aquí sus comentarios..." rows="6" cols="60"></textarea>
+                            <br>
+                            <input type="checkbox" name="ad" id="ad" checked>
+                            <label for="ad">Acepto recibir inormación publicitaria</label>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        <fieldset>
+                            <legend>Datos de envio</legend>
+                            <br>
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" name="direccion" id="direccion">
+                            <br>
+                            <label for="ciudad">Ciudad:</label>
+                            <input type="text" name="ciudad" id="ciudad">
+                            <br>
+                            <label for="codPostal">Código postal:</label>
+                            <input type="text" name="codPostal" id="codPostal">
+                        </fieldset>
+                    </td>
+                    <td colspan="2" rowspan="">
+                        <fieldset style="height: 100px;">
+                            <legend>Datos bancarios</legend>
+                            <label for="cuneta">Número de cuenta</label>
+                            <input type="text" name="cuenta" id="cuenta">
+                            <br>
+                            <label for="pass">contraseña</label>
+                            <input type="text" name="pass" id="pass">
+                            <br>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Enviar pedido</button>
+                    </td>
+                    <td>
+                        <button type="reset">Borrar formulario</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>

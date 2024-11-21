@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+}
+header {
+  background-color: #286af0;
+  text-shadow: 3px 3px white;
+  height: 160px;
+  width: 100%;
+  padding: 10px;
+}
+.cabecera{
+  display: flexbox;
+  margin-left: 25px;
+  position: relative 50px ;
+}
+#log{
+  margin-top: 0 px;
+}
+#eslogan {
+  font-size: xx-large;
+  display: flex;
+  justify-items: center;
+}
+nav{
+  background-color: rgb(79, 68, 233);
+}
+a {
+  flex: top 50%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+}
+.enlace{
+  color: white;
+  text-decoration: none;
+}
+.enlace:hover{
+  font-family:
+  Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+
+}
+ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+li {
+  margin-left: 15px;
+  
+}
+
+#fachada,
+#pieFoto {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagen {
+  width: 200px;
+  height: 200px;
+}
+
+section {
+  background-color: grey;
+  float: left;
+  width: 80%;
+  height: 500px;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  height: 500px;
+  overflow: scroll;
+}
+.titulo{
+  text-align: center;
+  padding: auto;
+}
+.parrafo{
+  text-align: justify;
+  padding: 10px;
+}
+
+footer {
+  background-color: #286af0;
+  clear: both;
+  height: 30px;
+}
+
+#web {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}

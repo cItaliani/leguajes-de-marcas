@@ -1,0 +1,41 @@
+#datos {
+  float: left;
+  width: 25%;
+  height: 500px;
+}
+#datos li:hover{
+  font-size: 135%;
+  color:red
+}
+
+#principal {
+  float: right;
+  width: 75%;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mas {
+  display: none;
+}
+
+#leermas:hover .mas {
+  /*al pasar sobre leer mas, hace que ".mas" sea visible*/
+  display: block;
+}
+
+#contenido {
+  position: relative;
+  right: 40px;
+  display: inline-flex;
+
+  li {
+    list-style: none;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1 & 2</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <legend><strong>
+                <h3>Tipos de Input</h3>
+            </strong></legend>
+        <label for="nombre de usuario"> Usuario: </label>
+        <input type="nombre de usuario" placeholder="nombre de usuario">
+        <br>
+        <br>
+        <label for="contraseña">Contraseña </label>
+        <input type="password" name="contraseña" id="contraseña">
+        <br>
+        <br>
+        <label for="mantener conectado">Mantener conectado </label>
+        <input type="checkbox" name="mantener conectado" id="mantener conectado" checked>
+        <br>
+        <br>
+        <label for="horario">Preferencias: </label>
+        <input type="radio" name="preferencia[]" id="mañana">
+        <label for="mañana">Mañana</label>
+        <input type="radio" name="preferencia[]" id="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="preferencia[]" id="noche">
+        <label for="novhe">Noche</label>
+        <br>
+        <br>
+        <label for="">Reservar: </label>
+        <input type="radio" name="hotel[]" id="Hotel">
+        <label for="hotel">Hotel</label>
+        <input type="radio" name="coche[]" id="Coche">
+        <label for="cohe">Coche</label>
+        <br>
+        <br>
+        <label for="cuidad">Ciudad </label>
+        <input type="ciudad" placeholder="Vigo" readonly size="20px">
+        <br>
+        <br>
+        <label for="">Subir fotografía:</label>
+        <input type="archivos" style="background-color: rgb(200, 201, 199) ;" readonly>
+        <input type="button" value="Examinar...">
+        <br>
+        <br>
+        <label for="file">Subir fotografía: </label>
+        <input type="file" value="archivos">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <br>
+        <br>
+        <button><img style="width:15px; height: 20px;" src="check verde.jpg" alt="submit"></button>
+        <button><img style="width:15px; height: 20px;" src="papelera.jpg" alt="reset"></button>
+        <br>
+        <button onclick="window.close();">Salir</button>
+        
+    </form>
+</body>
+
+</html>
